@@ -1,0 +1,87 @@
+insert into Policy(name) values('250/500 Bodily Injury');
+insert into Policy(name) values('100000 Property Damage');
+insert into Policy(name) values('250/500 Uninsured Motorist');
+insert into Policy(name) values('250/500 Underinsured Motorist');
+insert into Policy(name) values('3500 Uninsured Motorist Property Damage');
+
+insert into Policy(name) values('100/300 Bodily Injury');
+insert into Policy(name) values('100000 Property Damage');
+insert into Policy(name) values('100/300 Uninsured Motorist');
+insert into Policy(name) values('100/300 Underinsured Motorist');
+insert into Policy(name) values('Reject Uninsured Motorist Property Damage');
+
+insert into Policy(name) values('50/100 Bodily Injury');
+insert into Policy(name) values('50000 Property Damage');
+insert into Policy(name) values('50/100 Uninsured Motorist');
+insert into Policy(name) values('50/100 Underinsured Motorist');
+insert into Policy(name) values('Reject Uninsured Motorist Property Damage');
+
+insert into Policy(name) values('State Minimum Bodily Injury');
+insert into Policy(name) values('State Minimum Property Damage');
+insert into Policy(name) values('State Minimum Uninsured Motorist');
+insert into Policy(name) values('State Minimum Underinsured Motorist');
+insert into Policy(name) values('Reject Uninsured Motorist Property Damage');
+
+ {
+         "planId": 1,
+         "name": "Premium",
+         "planType": "Full Coverage",
+         "description": "The full-coverage car insurance is from Aileen Insurance. It costs an average of $99 per month while also having perfect customer satisfaction.",
+         "policies": [
+             {"id": 1,"name": ""},
+             {"id": 2,"name": ""},
+             {"id": 3,"name": ""},
+             {"id": 4,"name": ""},
+             {"id": 5,"name": ""}
+         ],
+         "basePrice": 99.0,
+         "image": "blueCar.jpeg"
+     }
+
+     {
+         "planId": 2,
+         "name": "Standard",
+         "planType": "Acceptable Coverage",
+         "description": "The Acceptable-coverage car insurance is from Aileen Insurance. It costs an average of $59 per month while also having good customer satisfaction.",
+         "policies": [
+             {"id": 6,"name": ""},
+             {"id": 7,"name": ""},
+             {"id": 8,"name": ""},
+             {"id": 9,"name": ""},
+             {"id": 10,"name": ""}
+             ],
+             "basePrice": 79.0,
+             "image": "blueCar.jpeg"
+     }
+
+    {
+      "planId": 3,
+      "name": "Basic",
+      "planType": "Adorable Coverage",
+      "description": "The Adorable-coverage car insurance is from Aileen Insurance. It costs an average of $59 per month while also having good customer satisfaction.",
+      "policies": [
+         {"id": 11,"name": ""},
+         {"id": 12,"name": ""},
+         {"id": 13,"name": ""},
+         {"id": 14,"name": ""},
+         {"id": 10,"name": ""}
+         ],
+      "basePrice": 59.0,
+      "image": "blueCar.jpeg"
+  }
+
+     {
+        "planId": 4,
+        "name": "State Minimum",
+        "planType": "Minimum Coverage",
+        "description": "The Minimum-coverage car insurance is from Aileen Insurance. It costs an average of $59 per month while also having good customer satisfaction.",
+        "policies": [
+           {"id": 15,"name": ""},
+           {"id": 16,"name": ""},
+           {"id": 17,"name": ""},
+           {"id": 18,"name": ""},
+           {"id": 10,"name": ""}
+           ],
+        "basePrice": 39.0,
+        "image": "blueCar.jpeg"
+    }
